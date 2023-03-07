@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauri Ghadge</title>
+    <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/78cd61624c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+     <div class="container">
+         <nav>
+          <a href=""> <img src="images/logo.jpg" class="logo"></a>
+           
+             <ul id="sidemenu">
+                 <li><a href="#header">HOME</a></li>
+                 <li><a href="#about">ABOUT</a></li>
+                 <li><a href="#blogs">BLOGS</a></li>
+                 <li><a href="#portfolio">PORTFOLIO</a></li>
+                 <li><a href="#contact">CONTACT</a></li>
+                 <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+             </ul>
+             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+         </nav>
+         
+         <div class="header-text">
+             <h2>Hello (人´•‿•`) I'm,</h2>
+            <h1>Gauri<span>Ghadge</span></h1>
+            <p> Enthusiastic l Determinant<br> C++ l Frontend l Data Science
+            </p>
+            <a href="#">Download RESUME</a>
+         </div>  
+     </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br>
+  <!-------------About----------->
+       <div id="about">
+           <div class="container">
+               <div class="row">
+                   <div class="about-col-1">
+                       <img src="images/profile.jpg" alt="">
+                       <a href="#" class="btn-3">CERTIFICATIONS</a>
+                   </div>
+                   <div class="about-col-2">
+                       <h1 class="sub-title">About Me</h1><br>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint repellat dolorum, tempora quaerat ipsum fuga pariatur quas asperiores perferendis voluptate quasi doloremque unde impedit doloribus dicta rerum, voluptatum facilis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint repellat dolorum, tempora quaerat ipsum fuga pariatur quas asperiores perferendis voluptate quasi doloremque unde impedit doloribus dicta rerum, voluptatum facilis Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint repellat dolorum, tempora quaerat ipsum fuga pariatur quas asperiores perferendis voluptate quasi doloremque unde impedit doloribus dicta rerum, voluptatum facilis Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sint repellat dolorum, tempora quaerat ipsum fuga pariatur quas asperiores perferendis voluptate quasi doloremque unde impedit doloribus dicta rerum, voluptatum facilis</p>
+                          <br>
+                       <div class="tab-titles">
+                           <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                           <p class="tab-links"  onclick="opentab('interests')">Interests</p>
+                           <p class="tab-links"  onclick="opentab('education')">Education</p>
+                           <p class="tab-links"  onclick="opentab('softskills')">Soft Skills</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                           <ul type="disk">
+                               <li><span>Frontend</span><br>HTML,CSS</li>
+                               <li><span>Web Designing</span><br>Canva,Wix,Wordpress,VS Code</li>
+                               <li><span>Data Science</span><br>Pandas,Seaborn,Matplotlib,Scipy</li>
+                               <li><span>Python</span></li>
+                               <li><span>C</span></li>
+                               <li><span>C++</span></li>
+                           </ul>
+                       </div>
+                       <div class="tab-contents" id="interests">
+                        <ul type="disk">
+                            <li><span>Exploring new things</span></li>
+                            <li><span>Writing</span></li>
+                            <li><span>Movies and Music</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul type="disk">
+                            <li><span>2019</span><br>10th from D.S highschool,Sion<br> Percentage-93.40%</li>
+                            <li><span>2021</span><br>12th from SIES college,Sion<br> Percentage-95.83%</li>
+                            <li><span>2021-2025(Expected)</span><br>B.Tech Computer Science and Business System<br>FY CGPA-9.74</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="softskills">
+                        <ul type="disk">
+                            <li><span>Leadership</span></li>
+                            <li><span>Public Speaking</span></li>
+                            <li><span>Problem Solving</span></li>
+                        </ul>
+                    </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+          <div id="blogs">
+              <div class="container">
+                <h1 class="sub-title">My Blogs</h1>
+                <div class="blogs-list">
+                    <div>
+                        <i class="fa-brands fa-blogger"></i>
+                        <h2>Blog-1</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptates minus facere veritatis sed quas autem possimus nisi eveniet, culpa vitae accusamus earum molestiae. Unde accusantium quidem odio nihil a.</p>
+                        <a href="#">Read Here</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-blogger"></i>
+                        <h2>Blog2</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptates minus facere veritatis sed quas autem possimus nisi eveniet, culpa vitae accusamus earum molestiae. Unde accusantium quidem odio nihil a.</p>
+                        <a href="#">Read Here</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-blogger"></i>
+                        <h2>Blog-3</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptates minus facere veritatis sed quas autem possimus nisi eveniet, culpa vitae accusamus earum molestiae. Unde accusantium quidem odio nihil a.</p>
+                        <a href="#">Read Here</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-blogger"></i>
+                        <h2>Blog-4</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptates minus facere veritatis sed quas autem possimus nisi eveniet, culpa vitae accusamus earum molestiae. Unde accusantium quidem odio nihil a.</p>
+                        <a href="#">Read Here</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-blogger"></i>
+                        <h2>Blog-5</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptates minus facere veritatis sed quas autem possimus nisi eveniet, culpa vitae accusamus earum molestiae. Unde accusantium quidem odio nihil a.</p>
+                        <a href="#">Read Here</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-blogger"></i>
+                        <h2>Blog-6</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque voluptates minus facere veritatis sed quas autem possimus nisi eveniet, culpa vitae accusamus earum molestiae. Unde accusantium quidem odio nihil a.</p>
+                        <a href="#">Read Here</a>
+                    </div>
+                </div>
+                <a href="#" class="btn">Read More</a>
+              </div>
+          </div>
+
+          <div id="portfolio">
+             <div class="container">
+                <h1 class="sub-title">Portfolio</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/tech-2.jpg">
+                        <div class="layer">
+                            <h3>Shopping Website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat mollitia, quod odit molestiae consectetur odio repellendus dignissimos eaque cupiditate molestias iure, totam necessitatibus a quo dolorum beatae, blanditiis maiores iste.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/tech-2.jpg">
+                        <div class="layer">
+                            <h3>Personal Portfolio</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat mollitia, quod odit molestiae consectetur odio repellendus dignissimos eaque cupiditate molestias iure, totam necessitatibus a quo dolorum beatae, blanditiis maiores iste.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/tech-2.jpg">
+                        <div class="layer">
+                            <h3>Data Set</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat mollitia, quod odit molestiae consectetur odio repellendus dignissimos eaque cupiditate molestias iure, totam necessitatibus a quo dolorum beatae, blanditiis maiores iste.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+             </div>
+          </div>
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                            <p><i class="fa-solid fa-phone"></i>9999999999</p>
+                            <div class="social-icons">
+                               <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+                               <a href=""><i class="fa-brands fa-square-github"></i></a>
+                               <a href=""><i class="fa-solid fa-envelope"></i></a>
+                               <a href=""><i class="fa-sharp fa-solid fa-code"></i></a>
+                               <a href=""><i class="fa-brands fa-wordpress"></i></a>
+                               <a href=""><i class="fa-brands fa-medium"></i></a>
+                            </div>
+                            <a href="" class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer-distributed">
+                    <div class="footer-left">
+                        <h3>Gauri<span>Ghadge</span></h3>
+                        <p class="footer-links">
+                            <a href="#home">Home</a>
+                            ·
+                            <a href="#about">About</a>
+                            ·
+                            <a href="#blogs">Blogs</a>
+                            ·
+                            <a href="#portfolio">Portfolio</a>
+                            ·
+                            <a href="#contact">Contact Me</a>
+                        </p>
+                        <p class="footer-company-name">Gauri Ghadge &copy; 2023</p>
+                    </div>
+                    <div class="footer-center">
+                        <div>
+                            <i class="fa fa-map-marker"></i>
+                            <p><span>INDIA</span> Mumbai</p>
+                        </div>
+            
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <p>+91 9999999999</p>
+                        </div>
+            
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <p><a href="">contact@example.com</a></p>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <p class="footer-company-about">
+                            <span>Made with 🤍 by Gauri Ghadge</span>
+                            Personal portfolio to show all my projects,skills and progress.
+                        </p>
+                       
+                    </div>
+                </footer>
+             </div>
+
+
+
+       <script>
+           var tablinks=document.getElementsByClassName("tab-links");
+           var tabcontents=document.getElementsByClassName("tab-contents");
+
+           function opentab(tabname)
+           {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+             tabcontent.classList.remove("active-tab");
+            }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+           
+           } 
+        </script>
+           
+
+        <script>
+          var sidemenu = document.getElementById("sidemenu");
+
+          function openmenu(){
+              sidemenu.style.right="0";
+          }
+     
+          function closemenu(){
+            sidemenu.style.right="-150px";
+        }
+        </script>
+
+
+
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbxPqTv_QvG286E08WgLq7D3b0Hkkp_z96KCsjMq42VYZh0zbxFKNAYqXdWCV-2kCKU-/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg");
+
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = "Message sent Successfully 😃"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+</body>
+</html>
